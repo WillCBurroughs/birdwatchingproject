@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Allows bird to chirp 
 
 function chirp(){
-    let audio = new Audio("chirp.wav");
+    let audio = new Audio("https://willcburroughs.github.io/birdwatchingproject/chirp.wav");
     audio.play();
 }
 
